@@ -14,7 +14,7 @@ public class Q67
 
         int carry = 0;
         while(i>=0 && j>=0)
-        {~
+        {
             int n = a.charAt(i--)-'0';
             int m = b.charAt(j--)-'0';
             int res = n + m + carry;
